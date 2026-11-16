@@ -1,0 +1,2 @@
+{ "name": "Study Tracker", "short_name": "Study", "start_url": "/", "display": "standalone",
+  "background_color": "#101714", "theme_color": "#2f6f5e", "icons": [] }
