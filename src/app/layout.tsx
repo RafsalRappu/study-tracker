@@ -4,7 +4,11 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import Providers from "./providers";
 
 const sans = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-sans" });
-export const metadata: Metadata = { title: "Study Tracker", manifest: "/manifest.json" };
+export const metadata: Metadata = {
+  title: "Study Tracker",
+  manifest: "/manifest.json",
+  icons: { icon: "/icon.svg" },
+};
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#2f6f5e" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
